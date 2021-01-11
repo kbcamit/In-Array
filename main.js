@@ -10,6 +10,7 @@ function in_array(arr, myValue) {
 }
 
 var result = in_array(arr, myValue);
+console.log(result);
 
 if (result == true) {
     console.log("Found in Array");
